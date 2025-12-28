@@ -15,265 +15,192 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 60px 20px;
         }
 
         header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 60px;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             background: linear-gradient(90deg, #00d4ff, #7b2cbf, #e94560);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
-        .subtitle { font-size: 1.2rem; color: #a0a0a0; margin-bottom: 10px; }
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a0a0a0;
+            margin-bottom: 20px;
+        }
 
         .badge {
             display: inline-block;
             background: rgba(0, 212, 255, 0.2);
             border: 1px solid #00d4ff;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            color: #00d4ff;
-        }
-
-        /* Search Section */
-        .search-section {
-            background: rgba(0, 212, 255, 0.08);
-            border: 1px solid rgba(0, 212, 255, 0.3);
-            border-radius: 16px;
-            padding: 30px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .search-section h2 { color: #00d4ff; margin-bottom: 20px; font-size: 1.4rem; }
-
-        .search-form {
-            display: flex;
-            gap: 12px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .search-form input {
-            padding: 14px 24px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 12px;
-            background: rgba(255, 255, 255, 0.05);
-            color: #fff;
-            font-size: 1.1rem;
-            width: 200px;
-            text-transform: uppercase;
-        }
-
-        .search-form input::placeholder { color: #666; text-transform: none; }
-
-        .search-btn {
-            padding: 14px 30px;
-            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
-            border: none;
-            border-radius: 12px;
-            color: #fff;
-            font-size: 1.1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .search-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 25px rgba(0, 212, 255, 0.4);
-        }
-
-        .search-btn:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        /* Loading */
-        .loading {
-            display: none;
-            text-align: center;
-            padding: 40px;
-            color: #00d4ff;
-        }
-
-        .loading.active { display: block; }
-
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid rgba(0, 212, 255, 0.2);
-            border-top-color: #00d4ff;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        /* Report */
-        .report {
-            display: none;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            padding: 30px;
-            margin-bottom: 30px;
-        }
-
-        .report.active { display: block; }
-
-        .report-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .report-title h2 { font-size: 1.8rem; color: #fff; }
-        .report-title p { color: #8a8a8a; margin-top: 5px; }
-
-        .price-display {
-            text-align: right;
-        }
-
-        .current-price {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #00d4ff;
-        }
-
-        .price-change { font-size: 1rem; margin-top: 5px; }
-        .price-change.positive { color: #00ff88; }
-        .price-change.negative { color: #ff4757; }
-
-        /* KPI Grid */
-        .kpi-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
-        .kpi-card {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 12px;
-            padding: 16px;
-            text-align: center;
-        }
-
-        .kpi-card .label { font-size: 0.8rem; color: #8a8a8a; margin-bottom: 6px; }
-        .kpi-card .value { font-size: 1.3rem; font-weight: 600; color: #00d4ff; }
-
-        /* Sections */
-        .section { margin-bottom: 30px; }
-        .section h3 {
-            font-size: 1.2rem;
-            color: #7b2cbf;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid rgba(123, 44, 191, 0.3);
-        }
-
-        /* Tables */
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 12px; text-align: left; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-        th { color: #00d4ff; font-weight: 600; }
-        td { color: #ccc; }
-
-        /* Recommendation */
-        .recommendation {
-            text-align: center;
-            padding: 25px;
-            background: rgba(0, 212, 255, 0.1);
-            border-radius: 12px;
-            margin-top: 20px;
-        }
-
-        .rec-badge {
-            display: inline-block;
-            padding: 10px 30px;
+            padding: 8px 20px;
             border-radius: 25px;
-            font-size: 1.3rem;
-            font-weight: 700;
+            font-size: 0.9rem;
+            color: #00d4ff;
         }
 
-        .rec-badge.buy { background: rgba(0, 255, 136, 0.2); color: #00ff88; }
-        .rec-badge.hold { background: rgba(255, 193, 7, 0.2); color: #ffc107; }
-        .rec-badge.sell { background: rgba(255, 71, 87, 0.2); color: #ff4757; }
+        .badge a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
 
-        /* Error */
-        .error {
-            display: none;
-            background: rgba(255, 71, 87, 0.1);
-            border: 1px solid #ff4757;
-            color: #ff4757;
-            padding: 20px;
-            border-radius: 12px;
+        .badge a:hover {
+            text-decoration: underline;
+        }
+
+        /* Reports Section */
+        .reports-section {
+            margin-bottom: 60px;
+        }
+
+        .reports-section h2 {
             text-align: center;
-            margin-bottom: 20px;
+            color: #fff;
+            font-size: 1.6rem;
+            margin-bottom: 30px;
         }
 
-        .error.active { display: block; }
-
-        /* Saved Reports */
-        .saved-reports { margin-top: 40px; }
-        .saved-reports h3 { color: #00d4ff; margin-bottom: 20px; text-align: center; }
-
-        .report-link {
+        .report-card {
             display: block;
-            background: rgba(123, 44, 191, 0.1);
+            background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(123, 44, 191, 0.3);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 15px;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
             text-decoration: none;
             color: inherit;
-            transition: all 0.3s;
+            transition: all 0.3s ease;
         }
 
-        .report-link:hover {
-            transform: translateY(-3px);
+        .report-card:hover {
+            transform: translateY(-5px);
             border-color: #00d4ff;
-            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+            box-shadow: 0 15px 40px rgba(0, 212, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
         }
 
-        .report-link h4 { color: #fff; margin-bottom: 8px; }
-        .report-link p { color: #8a8a8a; font-size: 0.9rem; }
+        .report-card h3 {
+            color: #fff;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .report-badge {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .report-card p {
+            color: #a0a0a0;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .report-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .report-date {
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .view-btn {
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature h4 {
+            color: #00d4ff;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .feature p {
+            color: #8a8a8a;
+            font-size: 0.85rem;
+        }
 
         /* Footer */
         footer {
             text-align: center;
-            margin-top: 50px;
             padding: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             color: #6c6c6c;
         }
 
-        footer a { color: #00d4ff; text-decoration: none; }
+        footer a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
 
-        .tech-stack { display: flex; justify-content: center; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
-        .tech-item { background: rgba(255, 255, 255, 0.05); padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tech-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: #8a8a8a;
+        }
 
         @media (max-width: 600px) {
-            h1 { font-size: 2rem; }
-            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
-            .report-header { flex-direction: column; }
-            .price-display { text-align: left; }
+            h1 { font-size: 2.5rem; }
+            .container { padding: 40px 15px; }
+            .report-meta { flex-direction: column; gap: 15px; }
         }
     </style>
 </head>
@@ -282,276 +209,62 @@
         <header>
             <h1>FinSight</h1>
             <p class="subtitle">AI-Powered Financial Research Platform</p>
-            <span class="badge">Based on arXiv:2510.16844</span>
+            <span class="badge">Based on <a href="https://arxiv.org/abs/2510.16844" target="_blank">arXiv:2510.16844</a></span>
         </header>
 
-        <div class="search-section">
-            <h2>Generate Stock Analysis</h2>
-            <div class="search-form">
-                <input type="text" id="ticker-input" placeholder="Enter ticker (e.g., AAPL)" maxlength="5">
-                <button id="search-btn" class="search-btn" onclick="generateReport()">Analyze</button>
-            </div>
-        </div>
+        <section class="reports-section">
+            <h2>Comprehensive Analysis Reports</h2>
 
-        <div class="error" id="error"></div>
-
-        <div class="loading" id="loading">
-            <div class="spinner"></div>
-            <p>Fetching financial data...</p>
-        </div>
-
-        <div class="report" id="report">
-            <div class="report-header">
-                <div class="report-title">
-                    <h2 id="company-name">Company Name</h2>
-                    <p id="company-info">Sector | Industry</p>
+            <a href="enhanced_report/aapl_enhanced_report.html" class="report-card">
+                <h3>Apple Inc. (AAPL) <span class="report-badge">Latest</span></h3>
+                <p>Full AI-generated investment analysis featuring DCF valuation, technical indicators with chart analysis, SWOT breakdown, competitor comparison, and Chain-of-Analysis (CoA) reasoning.</p>
+                <div class="report-meta">
+                    <span class="report-date">December 28, 2025</span>
+                    <span class="view-btn">View Report</span>
                 </div>
-                <div class="price-display">
-                    <div class="current-price" id="current-price">$0.00</div>
-                    <div class="price-change" id="price-change">+0.00 (0.00%)</div>
-                </div>
-            </div>
-
-            <div class="kpi-grid" id="kpi-grid"></div>
-
-            <div class="section">
-                <h3>Key Metrics</h3>
-                <table id="metrics-table"></table>
-            </div>
-
-            <div class="section">
-                <h3>Valuation Ratios</h3>
-                <table id="valuation-table"></table>
-            </div>
-
-            <div class="section">
-                <h3>Financial Health</h3>
-                <table id="financial-table"></table>
-            </div>
-
-            <div class="recommendation" id="recommendation"></div>
-        </div>
-
-        <div class="saved-reports">
-            <h3>Full Enhanced Reports</h3>
-            <a href="enhanced_report/tsla_enhanced_report.html" class="report-link">
-                <h4>Tesla (TSLA) - Comprehensive Analysis</h4>
-                <p>Full AI-generated report with DCF valuation, technical analysis, SWOT, and more</p>
             </a>
-        </div>
 
-        
-        <a href="enhanced_report/aapl_enhanced_report.html" class="report-card">
-            <h2>Apple Inc. (AAPL) Report <span class="featured-badge">New</span></h2>
-            <p>AI-generated investment analysis with technical indicators, DCF valuation, competitor comparison, and SWOT analysis.</p>
-            <div class="report-meta">
-                <span>December 28, 2025</span>
-                <span>Enhanced Report</span>
+            <a href="enhanced_report/tsla_enhanced_report.html" class="report-card">
+                <h3>Tesla Inc. (TSLA)</h3>
+                <p>Comprehensive financial report with multi-agent analysis, including DCF modeling, technical chart interpretation, industry positioning, risk assessment, and investment recommendation.</p>
+                <div class="report-meta">
+                    <span class="report-date">December 9, 2024</span>
+                    <span class="view-btn">View Report</span>
+                </div>
+            </a>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h4>DCF Valuation</h4>
+                <p>Discounted cash flow modeling with sensitivity analysis</p>
             </div>
-            <span class="cta-button">View Report</span>
-        </a>
+            <div class="feature">
+                <h4>Technical Analysis</h4>
+                <p>Chart patterns, indicators, and price targets</p>
+            </div>
+            <div class="feature">
+                <h4>SWOT Analysis</h4>
+                <p>Strengths, weaknesses, opportunities, threats</p>
+            </div>
+            <div class="feature">
+                <h4>CoA Reasoning</h4>
+                <p>Chain-of-Analysis multi-segment approach</p>
+            </div>
+        </section>
 
         <footer>
             <p>Built with FinSight Framework</p>
-            <p style="margin-top: 10px;">Implementing: <a href="https://arxiv.org/abs/2510.16844" target="_blank">arXiv:2510.16844</a></p>
+            <p style="margin-top: 10px;">
+                Implementing: <a href="https://arxiv.org/abs/2510.16844" target="_blank">FinSight: Multi-Agent Financial Analysis (arXiv:2510.16844)</a>
+            </p>
             <div class="tech-stack">
                 <span class="tech-item">CAVM Architecture</span>
                 <span class="tech-item">Multi-Agent System</span>
                 <span class="tech-item">Playwright Browser</span>
+                <span class="tech-item">Vision-Enhanced Charts</span>
             </div>
         </footer>
     </div>
-
-    <script>
-        const PROXY = 'https://corsproxy.io/?';
-
-        async function generateReport() {
-            const ticker = document.getElementById('ticker-input').value.toUpperCase().trim();
-            if (!ticker) return;
-
-            const btn = document.getElementById('search-btn');
-            const loading = document.getElementById('loading');
-            const report = document.getElementById('report');
-            const error = document.getElementById('error');
-
-            // Reset state
-            btn.disabled = true;
-            btn.textContent = 'Loading...';
-            loading.classList.add('active');
-            report.classList.remove('active');
-            error.classList.remove('active');
-
-            try {
-                const data = await fetchStockData(ticker);
-                displayReport(data);
-                report.classList.add('active');
-            } catch (err) {
-                error.textContent = `Error: ${err.message}. Please check the ticker and try again.`;
-                error.classList.add('active');
-            } finally {
-                btn.disabled = false;
-                btn.textContent = 'Analyze';
-                loading.classList.remove('active');
-            }
-        }
-
-        async function fetchStockData(ticker) {
-            const quoteUrl = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${ticker}?modules=price,summaryDetail,financialData,defaultKeyStatistics`;
-
-            // Fetch quote summary
-            let quoteRes, quoteData;
-            try {
-                quoteRes = await fetch(PROXY + encodeURIComponent(quoteUrl));
-                quoteData = await quoteRes.json();
-            } catch (e) {
-                throw new Error(`Could not connect. Please try again.`);
-            }
-
-            if (!quoteData || !quoteData.quoteSummary) {
-                throw new Error(`Invalid ticker "${ticker}". Please check the symbol.`);
-            }
-
-            if (quoteData.quoteSummary.error || !quoteData.quoteSummary.result) {
-                throw new Error(`Ticker "${ticker}" not found. Did you mean a different symbol?`);
-            }
-
-            const result = quoteData.quoteSummary.result[0];
-            const price = result.price || {};
-            const summary = result.summaryDetail || {};
-            const financial = result.financialData || {};
-            const stats = result.defaultKeyStatistics || {};
-
-            return {
-                ticker: ticker,
-                name: price.longName || price.shortName || ticker,
-                sector: price.sector || 'N/A',
-                industry: price.industry || 'N/A',
-                currentPrice: price.regularMarketPrice?.raw || 0,
-                change: price.regularMarketChange?.raw || 0,
-                changePercent: price.regularMarketChangePercent?.raw || 0,
-                marketCap: price.marketCap?.raw || 0,
-                peRatio: summary.trailingPE?.raw || 0,
-                forwardPE: summary.forwardPE?.raw || 0,
-                pegRatio: stats.pegRatio?.raw || 0,
-                priceToBook: stats.priceToBook?.raw || 0,
-                priceToSales: summary.priceToSalesTrailing12Months?.raw || 0,
-                evToEbitda: stats.enterpriseToEbitda?.raw || 0,
-                beta: summary.beta?.raw || 0,
-                week52High: summary.fiftyTwoWeekHigh?.raw || 0,
-                week52Low: summary.fiftyTwoWeekLow?.raw || 0,
-                avgVolume: summary.averageVolume?.raw || 0,
-                dividendYield: summary.dividendYield?.raw || 0,
-                profitMargin: financial.profitMargins?.raw || 0,
-                operatingMargin: financial.operatingMargins?.raw || 0,
-                grossMargin: financial.grossMargins?.raw || 0,
-                roe: financial.returnOnEquity?.raw || 0,
-                roa: financial.returnOnAssets?.raw || 0,
-                debtToEquity: financial.debtToEquity?.raw || 0,
-                currentRatio: financial.currentRatio?.raw || 0,
-                revenueGrowth: financial.revenueGrowth?.raw || 0,
-                earningsGrowth: financial.earningsGrowth?.raw || 0,
-                targetPrice: financial.targetMeanPrice?.raw || 0,
-                recommendation: financial.recommendationKey || 'N/A'
-            };
-        }
-
-        function formatNumber(num, decimals = 2) {
-            if (num === 0 || num === null || num === undefined) return 'N/A';
-            if (Math.abs(num) >= 1e12) return (num / 1e12).toFixed(decimals) + 'T';
-            if (Math.abs(num) >= 1e9) return (num / 1e9).toFixed(decimals) + 'B';
-            if (Math.abs(num) >= 1e6) return (num / 1e6).toFixed(decimals) + 'M';
-            return num.toFixed(decimals);
-        }
-
-        function formatPercent(num) {
-            if (num === 0 || num === null || num === undefined) return 'N/A';
-            return (num * 100).toFixed(2) + '%';
-        }
-
-        function displayReport(data) {
-            // Header
-            document.getElementById('company-name').textContent = `${data.name} (${data.ticker})`;
-            document.getElementById('company-info').textContent = `${data.sector} | ${data.industry}`;
-            document.getElementById('current-price').textContent = `$${data.currentPrice.toFixed(2)}`;
-
-            const changeEl = document.getElementById('price-change');
-            const changeSign = data.change >= 0 ? '+' : '';
-            changeEl.textContent = `${changeSign}${data.change.toFixed(2)} (${changeSign}${(data.changePercent * 100).toFixed(2)}%)`;
-            changeEl.className = 'price-change ' + (data.change >= 0 ? 'positive' : 'negative');
-
-            // KPI Grid
-            const kpis = [
-                { label: 'Market Cap', value: '$' + formatNumber(data.marketCap) },
-                { label: 'P/E Ratio', value: formatNumber(data.peRatio, 1) + 'x' },
-                { label: '52W High', value: '$' + formatNumber(data.week52High) },
-                { label: '52W Low', value: '$' + formatNumber(data.week52Low) },
-                { label: 'Beta', value: formatNumber(data.beta) },
-                { label: 'Div Yield', value: formatPercent(data.dividendYield) }
-            ];
-
-            document.getElementById('kpi-grid').innerHTML = kpis.map(k => `
-                <div class="kpi-card">
-                    <div class="label">${k.label}</div>
-                    <div class="value">${k.value}</div>
-                </div>
-            `).join('');
-
-            // Metrics Table
-            document.getElementById('metrics-table').innerHTML = `
-                <tr><th>Metric</th><th>Value</th></tr>
-                <tr><td>Profit Margin</td><td>${formatPercent(data.profitMargin)}</td></tr>
-                <tr><td>Operating Margin</td><td>${formatPercent(data.operatingMargin)}</td></tr>
-                <tr><td>Gross Margin</td><td>${formatPercent(data.grossMargin)}</td></tr>
-                <tr><td>Return on Equity</td><td>${formatPercent(data.roe)}</td></tr>
-                <tr><td>Return on Assets</td><td>${formatPercent(data.roa)}</td></tr>
-                <tr><td>Revenue Growth</td><td>${formatPercent(data.revenueGrowth)}</td></tr>
-            `;
-
-            // Valuation Table
-            document.getElementById('valuation-table').innerHTML = `
-                <tr><th>Ratio</th><th>Value</th></tr>
-                <tr><td>Trailing P/E</td><td>${formatNumber(data.peRatio, 1)}x</td></tr>
-                <tr><td>Forward P/E</td><td>${formatNumber(data.forwardPE, 1)}x</td></tr>
-                <tr><td>PEG Ratio</td><td>${formatNumber(data.pegRatio)}</td></tr>
-                <tr><td>Price/Book</td><td>${formatNumber(data.priceToBook)}x</td></tr>
-                <tr><td>Price/Sales</td><td>${formatNumber(data.priceToSales)}x</td></tr>
-                <tr><td>EV/EBITDA</td><td>${formatNumber(data.evToEbitda, 1)}x</td></tr>
-            `;
-
-            // Financial Table
-            document.getElementById('financial-table').innerHTML = `
-                <tr><th>Metric</th><th>Value</th></tr>
-                <tr><td>Debt/Equity</td><td>${formatNumber(data.debtToEquity)}%</td></tr>
-                <tr><td>Current Ratio</td><td>${formatNumber(data.currentRatio)}</td></tr>
-                <tr><td>Avg Volume</td><td>${formatNumber(data.avgVolume, 0)}</td></tr>
-                <tr><td>Analyst Target</td><td>$${formatNumber(data.targetPrice)}</td></tr>
-            `;
-
-            // Recommendation
-            let recClass = 'hold';
-            let recText = 'HOLD';
-            const upside = data.targetPrice ? ((data.targetPrice - data.currentPrice) / data.currentPrice) : 0;
-
-            if (upside > 0.15 || data.recommendation === 'buy' || data.recommendation === 'strongBuy') {
-                recClass = 'buy';
-                recText = 'BUY';
-            } else if (upside < -0.1 || data.recommendation === 'sell' || data.recommendation === 'strongSell') {
-                recClass = 'sell';
-                recText = 'SELL';
-            }
-
-            const targetInfo = data.targetPrice ? ` (Target: $${data.targetPrice.toFixed(0)}, ${upside >= 0 ? '+' : ''}${(upside * 100).toFixed(1)}%)` : '';
-
-            document.getElementById('recommendation').innerHTML = `
-                <span class="rec-badge ${recClass}">${recText}</span>
-                <p style="margin-top: 15px; color: #8a8a8a;">Analyst Consensus: ${data.recommendation.toUpperCase()}${targetInfo}</p>
-            `;
-        }
-
-        // Enter key support
-        document.getElementById('ticker-input').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') generateReport();
-        });
-    </script>
 </body>
 </html>
