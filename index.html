@@ -385,23 +385,23 @@
         }
 
         async function fetchStockData(ticker) {
-            const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?interval=1d&range=5d`;
             const quoteUrl = `https://query1.finance.yahoo.com/v10/finance/quoteSummary/${ticker}?modules=price,summaryDetail,financialData,defaultKeyStatistics`;
 
-            // Fetch chart data
-            const chartRes = await fetch(PROXY + encodeURIComponent(url));
-            const chartData = await chartRes.json();
-
-            if (chartData.chart.error) {
-                throw new Error(chartData.chart.error.description || 'Invalid ticker');
+            // Fetch quote summary
+            let quoteRes, quoteData;
+            try {
+                quoteRes = await fetch(PROXY + encodeURIComponent(quoteUrl));
+                quoteData = await quoteRes.json();
+            } catch (e) {
+                throw new Error(`Could not connect. Please try again.`);
             }
 
-            // Fetch quote summary
-            const quoteRes = await fetch(PROXY + encodeURIComponent(quoteUrl));
-            const quoteData = await quoteRes.json();
+            if (!quoteData || !quoteData.quoteSummary) {
+                throw new Error(`Invalid ticker "${ticker}". Please check the symbol.`);
+            }
 
-            if (quoteData.quoteSummary.error) {
-                throw new Error('Could not fetch company data');
+            if (quoteData.quoteSummary.error || !quoteData.quoteSummary.result) {
+                throw new Error(`Ticker "${ticker}" not found. Did you mean a different symbol?`);
             }
 
             const result = quoteData.quoteSummary.result[0];
