@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Company Overview",
+    "data_refs": [
+      "company_profile",
+      "search_results"
+    ],
+    "chart_refs": []
+  },
+  {
+    "title": "Financial Performance",
+    "data_refs": [
+      "income_statement",
+      "financial_ratios"
+    ],
+    "chart_refs": [
+      "revenue_chart"
+    ]
+  },
+  {
+    "title": "Profitability Analysis",
+    "data_refs": [
+      "financial_ratios"
+    ],
+    "chart_refs": [
+      "profitability_chart"
+    ]
+  },
+  {
+    "title": "Balance Sheet Analysis",
+    "data_refs": [
+      "balance_sheet"
+    ],
+    "chart_refs": [
+      "balance_chart"
+    ]
+  },
+  {
+    "title": "Stock Performance",
+    "data_refs": [
+      "stock_data",
+      "analyst_ratings"
+    ],
+    "chart_refs": [
+      "price_chart"
+    ]
+  },
+  {
+    "title": "Valuation Analysis",
+    "data_refs": [
+      "stock_data",
+      "income_statement"
+    ],
+    "chart_refs": []
+  },
+  {
+    "title": "Risk Assessment & Opportunities",
+    "data_refs": [
+      "company_profile",
+      "extracted_facts"
+    ],
+    "chart_refs": []
+  },
+  {
+    "title": "Investment Thesis & Recommendation",
+    "data_refs": [
+      "company_profile",
+      "stock_data",
+      "financial_ratios",
+      "analyst_ratings"
+    ],
+    "chart_refs": []
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "tool": "generate_pie_chart",
+  "params": {
+    "data": [
+      {
+        "category": "Strong Buy",
+        "value": 5.0
+      },
+      {
+        "category": "Buy",
+        "value": 15.0
+      },
+      {
+        "category": "Hold",
+        "value": 17.0
+      },
+      {
+        "category": "Sell",
+        "value": 6.0
+      },
+      {
+        "category": "Strong Sell",
+        "value": 2.0
+      }
+    ],
+    "title": "Analyst Recommendations",
+    "angleField": "value",
+    "colorField": "category",
+    "color": [
+      "#059669",
+      "#34d399",
+      "#fbbf24",
+      "#f87171",
+      "#dc2626"
+    ]
+  }
+}

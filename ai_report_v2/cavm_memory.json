@@ -1,0 +1,54 @@
+{
+  "company_profile": {
+    "type": "data",
+    "description": "TSLA company profile"
+  },
+  "stock_data": {
+    "type": "data",
+    "description": "TSLA stock metrics"
+  },
+  "income_statement": {
+    "type": "data",
+    "description": "TSLA income statement"
+  },
+  "balance_sheet": {
+    "type": "data",
+    "description": "TSLA balance sheet"
+  },
+  "cash_flow": {
+    "type": "data",
+    "description": "TSLA cash flow"
+  },
+  "price_history": {
+    "type": "data",
+    "description": "TSLA price history (5Y monthly)"
+  },
+  "analyst_ratings": {
+    "type": "data",
+    "description": "TSLA analyst ratings"
+  },
+  "financial_ratios": {
+    "type": "data",
+    "description": "TSLA financial ratios"
+  },
+  "revenue_chart": {
+    "type": "chart",
+    "description": "Revenue trend chart"
+  },
+  "profitability_chart": {
+    "type": "chart",
+    "description": "Profitability metrics chart"
+  },
+  "price_chart": {
+    "type": "chart",
+    "description": "Stock price history"
+  },
+  "balance_chart": {
+    "type": "chart",
+    "description": "Balance sheet composition"
+  },
+  "ratings_chart": {
+    "type": "chart",
+    "description": "Analyst ratings distribution"
+  }
+}

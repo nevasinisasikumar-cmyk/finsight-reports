@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Company Overview and Business Model",
+    "content": "## Tesla, Inc. (TSLA): Business Overview\n\n### Executive Summary\nTesla, Inc. is a leading electric vehicle and clean energy company headquartered in Austin, Texas. \nFounded in 2003, the company has grown to employ approximately 140,000 people globally \n[Source: company_profile].\n\n### Business Segments\nThe company operates through four main segments:\n- **Automotive Sales** (78% of revenue): Core vehicle sales\n- **Automotive Leasing** (7%): Vehicle leasing programs  \n- **Energy Generation & Storage...",
+    "data_used": [
+      "company_profile",
+      "segment_data"
+    ]
+  },
+  {
+    "title": "Financial Performance Analysis",
+    "content": "## Financial Performance Deep Dive\n\n### Revenue Growth\nRevenue has grown at a 31.8% CAGR over the past 5 years, reaching $98.0B in 2024\n[Source: income_statement]. However, growth has decelerated significantly from +71% in 2021 to +1% in 2024.\n\n@import \"Revenue Growth Trend (2019-2024), bar chart with YoY growth annotations (income_statement)\"\n\n### Year-over-Year Performance\n\n| Year | Revenue ($B) | Yoy Growth |\n|---|---|---|\n| 2021 | $53.8 | <span class='trend-positive'>+71.0%</span> |\n| 2022 |...",
+    "data_used": [
+      "income_statement"
+    ]
+  },
+  {
+    "title": "Profitability Metrics Analysis",
+    "content": "## Profitability Analysis\n\n### Margin Compression\nProfitability has deteriorated significantly in 2023-2024:\n- Gross Margin: 25.6% (2022) \u2192 17.9% (2024)\n- Operating Margin: 16.8% (2022) \u2192 7.8% (2024)\n- Net Margin: 15.5% (2022) \u2192 7.2% (2024)\n\n[Source: profitability_metrics]\n\n@import \"Profitability Margins Comparison (2019-2024), grouped bar chart showing gross and operating margins (profitability_metrics)\"\n\n### Margin Compression Drivers:\n1. **Price Cuts**: Multiple price reductions averaging -15...",
+    "data_used": [
+      "profitability_metrics"
+    ]
+  },
+  {
+    "title": "Vehicle Delivery Analysis",
+    "content": "## Vehicle Delivery Performance\n\n### Annual Deliveries\nTesla delivered approximately 1,800K vehicles in 2024,\nrepresenting a -1% change YoY [Source: delivery_data].\n\n@import \"Annual Vehicle Deliveries (2019-2024), bar chart with trend line (delivery_data)\"\n\n### Delivery Trajectory\n\n| Year | Deliveries (K) | Yoy Growth |\n|---|---|---|\n| 2020 | $500.0 | <span class='trend-positive'>+36.0%</span> |\n| 2021 | $936.0 | <span class='trend-positive'>+87.0%</span> |\n| 2022 | $1.3K | <span class='trend-po...",
+    "data_used": [
+      "delivery_data"
+    ]
+  },
+  {
+    "title": "Competitive Landscape",
+    "content": "## Competitive Landscape Analysis\n\n### Global EV Market Share\nTesla holds approximately 30% of the global EV market (among major players),\nsecond to BYD at 42% [Source: competitor_data].\n\n@import \"Global EV Sales by Manufacturer (2024), bar chart comparing companies (competitor_data)\"\n\n### Market Position\n\n| Company | Ev Sales 2024 (K) | Market Cap ($B) | P/E Ratio |\n|---|---|---|---|\n| Tesla | $1.8K | $780.0 | 65.00x |\n| BYD | $2.5K | $95.0 | 22.00x |\n| VW Group | $700.0 | $65.0 | 5.00x |\n\n### ...",
+    "data_used": [
+      "competitor_data"
+    ]
+  },
+  {
+    "title": "Balance Sheet Analysis",
+    "content": "## Balance Sheet Strength\n\n### Financial Position\nTesla maintains a strong balance sheet with minimal leverage [Source: balance_sheet]:\n\n### Financial Position\n\n| Metric | Value |\n|---|---|\n| Total Assets | $106.6 |\n| Cash & Equivalents | $26.1 |\n| Total Debt | $5.7 |\n| Shareholders' Equity | $62.8 |\n| Current Ratio | 1.73x |\n| Debt/Equity | 0.09x |\n\n### Key Strengths:\n1. **Net Cash Position**: $20.4B net cash\n2. **Low Leverage**: D/E of 0.09x (minimal debt)\n3. **Strong Liquidity**: Current rati...",
+    "data_used": [
+      "balance_sheet"
+    ]
+  },
+  {
+    "title": "Valuation Analysis",
+    "content": "## Valuation Analysis\n\n### Current Valuation Metrics\n[Source: stock_data]\n\n### Current Valuation Metrics\n\n| Metric | Tesla | Industry Avg |\n|---|---|---|\n| Stock Price | $248.0 | - |\n| Market Cap | $780.0 | - |\n| P/E Ratio | $65.0 | 10 |\n| P/S Ratio | $8.2 | 1.5 |\n| P/B Ratio | $12.5 | 2 |\n\n### Premium Analysis\nTesla trades at a significant premium to peers:\n- **6.5x** the industry average P/E\n- **5.5x** the industry average P/S\n\n### 52-Week Range\n- High: $280\n- Low: $140\n- Current: $248 (77% of...",
+    "data_used": [
+      "stock_data"
+    ]
+  }
+]

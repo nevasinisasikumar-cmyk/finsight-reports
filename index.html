@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinSight - AI-Powered Financial Research</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf, #e94560);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: #a0a0a0;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(0, 212, 255, 0.2);
+            border: 1px solid #00d4ff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #00d4ff;
+        }
+
+        .reports-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .report-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .report-card:hover {
+            transform: translateY(-5px);
+            border-color: #00d4ff;
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.15);
+        }
+
+        .report-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            color: #fff;
+        }
+
+        .report-card p {
+            color: #a0a0a0;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .report-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.85rem;
+            color: #6c6c6c;
+        }
+
+        .report-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .featured {
+            border-color: #7b2cbf;
+            background: rgba(123, 44, 191, 0.1);
+        }
+
+        .featured-badge {
+            background: linear-gradient(90deg, #7b2cbf, #e94560);
+            color: #fff;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            margin-left: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #6c6c6c;
+        }
+
+        footer a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tech-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FinSight</h1>
+            <p class="subtitle">AI-Powered Financial Research Platform</p>
+            <span class="badge">Based on arXiv:2510.16844</span>
+        </header>
+
+        <main>
+            <h2 style="margin-bottom: 10px; font-size: 1.5rem;">Generated Reports</h2>
+            <p style="color: #a0a0a0; margin-bottom: 20px;">Click on any report to view the full AI-generated analysis</p>
+
+            <div class="reports-grid">
+                <a href="enhanced_report/tsla_enhanced_report.html" class="report-card featured">
+                    <h3>Tesla (TSLA) Enhanced Report <span class="featured-badge">Featured</span></h3>
+                    <p>Comprehensive AI-generated analysis with enhanced visualizations and deep market insights.</p>
+                    <div class="report-meta">
+                        <span>Dec 9, 2024</span>
+                        <span>Enhanced Report</span>
+                    </div>
+                </a>
+
+                <a href="finsight_report/tsla_report.html" class="report-card">
+                    <h3>Tesla (TSLA) Analysis</h3>
+                    <p>Full FinSight report with CAVM architecture, Chain-of-Analysis, and multi-agent collaboration.</p>
+                    <div class="report-meta">
+                        <span>Dec 5, 2024</span>
+                        <span>FinSight Report</span>
+                    </div>
+                </a>
+
+                <a href="finsight_report/aapl_report.html" class="report-card">
+                    <h3>Apple (AAPL) Analysis</h3>
+                    <p>In-depth Apple investment analysis with financial data and AI-powered insights.</p>
+                    <div class="report-meta">
+                        <span>Dec 5, 2024</span>
+                        <span>FinSight Report</span>
+                    </div>
+                </a>
+
+                <a href="two_stage_report/tesla_two_stage_report.html" class="report-card">
+                    <h3>Tesla Two-Stage Report</h3>
+                    <p>Implementation of the Two-Stage Writing framework with generative retrieval.</p>
+                    <div class="report-meta">
+                        <span>Dec 2024</span>
+                        <span>Two-Stage Writing</span>
+                    </div>
+                </a>
+
+                <a href="comprehensive_report/tesla_comprehensive_analysis.html" class="report-card">
+                    <h3>Tesla Comprehensive Analysis</h3>
+                    <p>Complete paper implementation with all components: CAVM, CoA, VLM charts.</p>
+                    <div class="report-meta">
+                        <span>Nov 2024</span>
+                        <span>Full Implementation</span>
+                    </div>
+                </a>
+
+                <a href="openai_report/tsla_report.html" class="report-card">
+                    <h3>Tesla (OpenAI GPT-4o)</h3>
+                    <p>Analysis generated using OpenAI's GPT-4o model.</p>
+                    <div class="report-meta">
+                        <span>Dec 2024</span>
+                        <span>OpenAI Provider</span>
+                    </div>
+                </a>
+
+                <a href="ai_report_v2/tsla_report.html" class="report-card">
+                    <h3>Tesla AI Report v2</h3>
+                    <p>Second iteration of AI-generated report with improved prompting.</p>
+                    <div class="report-meta">
+                        <span>Dec 2024</span>
+                        <span>AI Report</span>
+                    </div>
+                </a>
+
+                <a href="sample_report/tesla_analysis.html" class="report-card">
+                    <h3>Tesla Sample Analysis</h3>
+                    <p>Sample report demonstrating the FinSight analysis capabilities.</p>
+                    <div class="report-meta">
+                        <span>Nov 2024</span>
+                        <span>Sample</span>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with FinSight Framework</p>
+            <p style="margin-top: 10px;">Implementing: <a href="https://arxiv.org/abs/2510.16844" target="_blank">arXiv:2510.16844</a></p>
+            <div class="tech-stack">
+                <span class="tech-item">CAVM Architecture</span>
+                <span class="tech-item">Chain-of-Analysis</span>
+                <span class="tech-item">Multi-Agent System</span>
+                <span class="tech-item">Vision-Language Models</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
