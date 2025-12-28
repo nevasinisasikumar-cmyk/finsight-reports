@@ -145,6 +145,63 @@
             border-radius: 8px;
             font-size: 0.85rem;
         }
+
+        .features-section {
+            margin-top: 60px;
+            text-align: left;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .features-section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            text-align: center;
+            color: #00d4ff;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .feature-card h4 {
+            color: #e94560;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: #8a8a8a;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .new-badge {
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            color: #000;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 600px) {
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -163,6 +220,28 @@
             <span class="cta-button">View Full Report</span>
         </a>
 
+        <div class="features-section">
+            <h3>Framework Capabilities</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>Browser Automation <span class="new-badge">NEW</span></h4>
+                    <p>Playwright-powered browser for JavaScript-rendered content from SEC EDGAR, Bloomberg, and dynamic financial sites.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Deep Search Agent</h4>
+                    <p>Multi-query search planning with parallel execution and intelligent fact extraction from diverse sources.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>CAVM Architecture</h4>
+                    <p>Code Agent with Variable Memory for iterative reasoning, code generation, and execution.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Vision-Enhanced Charts</h4>
+                    <p>Iterative chart refinement using vision-language models for publication-quality visualizations.</p>
+                </div>
+            </div>
+        </div>
+
         <footer>
             <p>Built with FinSight Framework</p>
             <p style="margin-top: 10px;">Implementing: <a href="https://arxiv.org/abs/2510.16844" target="_blank">arXiv:2510.16844</a></p>
@@ -171,6 +250,7 @@
                 <span class="tech-item">Chain-of-Analysis</span>
                 <span class="tech-item">Multi-Agent System</span>
                 <span class="tech-item">Vision-Language Models</span>
+                <span class="tech-item">Playwright Browser</span>
             </div>
         </footer>
     </div>
