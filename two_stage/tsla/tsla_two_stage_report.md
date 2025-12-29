@@ -183,28 +183,29 @@ reflecting growth expectations and technology leadership [Source: competitor_dat
 
 ## Valuation Analysis
 
-### Current Valuation Metrics
-[Source: stock_data]
+### Current Stock Metrics [Source: stock_data]
 
-### Current Valuation Metrics
+| Metric | Value |
+|--------|-------|
+| Stock Price | $475.19 |
+| Market Cap | $1580.4B |
+| P/E Ratio | 323.3x |
+| P/S Ratio | 16.5x |
+| P/B Ratio | 19.8x |
 
-| Metric | Tesla | Industry Avg |
-|---|---|---|
-| Stock Price | $475.2 | - |
-| Market Cap | $1.6K | - |
-| P/E Ratio | $323.3 | 10 |
-| P/S Ratio | $16.5 | 1.5 |
-| P/B Ratio | $19.8 | 2 |
+### Valuation vs Industry Average
 
-### Premium Analysis
-Tesla trades at a significant premium to peers:
-- **32.3x** the industry average P/E
-- **11.0x** the industry average P/S
+The stock trades at a premium to industry peers:
+- **32.3x** the industry average P/E (industry avg: 10x)
+- **11.0x** the industry average P/S (industry avg: 1.5x)
 
-### 52-Week Range
-- High: $498.83
-- Low: $214.25
-- Current: $475.19 (92% of range)
+### 52-Week Trading Range
+
+- **52-Week High**: $498.83
+- **52-Week Low**: $214.25
+- **Current Price**: $475.19 (92% of range)
+
+The stock is trading near its 52-week high.
 
 [Source: stock_data]
 
