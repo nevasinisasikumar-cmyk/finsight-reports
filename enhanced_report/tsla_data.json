@@ -7,24 +7,24 @@
     "country": "United States",
     "city": "Austin",
     "website": "https://www.tesla.com",
-    "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The Automotive segment offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty after-sales vehicle, used vehicles, body shop and parts, supercharging, retail merchandise, and vehicle insurance services. This segment also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. The Energy Generation and Storage segment engages in the design, manufacture, installation, sale, and leasing of solar energy generatio"
+    "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The Automotive segment offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty after-sales vehicle, used vehicles, body shop and parts, supercharging, retail merchandise, and vehicle insurance services. This segment also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. The Energy Generation and Storage segment engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. This segment also provides services and repairs to its energy product customers, including under warranty; and various financing options to its residential customers. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas."
   },
   "stock_data": {
-    "current_price": 445.17,
-    "market_cap": 1480554971136,
-    "pe_ratio": 307.0138,
-    "forward_pe": 137.39815,
+    "current_price": 475.19,
+    "market_cap": 1580396052480,
+    "pe_ratio": 323.25848,
+    "forward_pe": 215.17973,
     "peg_ratio": 0,
-    "price_to_book": 18.504032,
-    "price_to_sales": 15.481633,
-    "enterprise_value": 1486134706176,
-    "ev_to_ebitda": 138.014,
-    "52_week_high": 488.54,
+    "price_to_book": 19.75185,
+    "price_to_sales": 16.525635,
+    "enterprise_value": 1553283022848,
+    "ev_to_ebitda": 144.25,
+    "52_week_high": 498.83,
     "52_week_low": 214.25,
-    "50_day_avg": 435.2006,
-    "200_day_avg": 343.0988,
-    "volume": 60868108,
-    "avg_volume": 88885876,
+    "50_day_avg": 444.1366,
+    "200_day_avg": 355.9617,
+    "volume": 58780659,
+    "avg_volume": 83737841,
     "beta": 1.878,
     "dividend_yield": 0
   },
@@ -41,35 +41,35 @@
       96.773,
       81.462,
       53.823,
-      NaN
+      0.0
     ],
     "gross_profit": [
       17.45,
       17.66,
       20.853,
       13.606,
-      NaN
+      0.0
     ],
     "operating_income": [
       7.76,
       8.891,
       13.832,
       6.496,
-      NaN
+      0.0
     ],
     "net_income": [
       7.13,
       14.999,
       12.583,
       5.524,
-      NaN
+      0.0
     ],
     "ebitda": [
       14.708,
       14.796,
       17.657,
       9.625,
-      NaN
+      0.0
     ]
   },
   "balance_sheet": {
@@ -88,17 +88,6 @@
   },
   "price_history": {
     "dates": [
-      "2023-12-11",
-      "2023-12-12",
-      "2023-12-13",
-      "2023-12-14",
-      "2023-12-15",
-      "2023-12-18",
-      "2023-12-19",
-      "2023-12-20",
-      "2023-12-21",
-      "2023-12-22",
-      "2023-12-26",
       "2023-12-27",
       "2023-12-28",
       "2023-12-29",
@@ -588,20 +577,21 @@
       "2025-12-04",
       "2025-12-05",
       "2025-12-08",
-      "2025-12-09"
+      "2025-12-09",
+      "2025-12-10",
+      "2025-12-11",
+      "2025-12-12",
+      "2025-12-15",
+      "2025-12-16",
+      "2025-12-17",
+      "2025-12-18",
+      "2025-12-19",
+      "2025-12-22",
+      "2025-12-23",
+      "2025-12-24",
+      "2025-12-26"
     ],
     "close": [
-      239.74000549316406,
-      237.00999450683594,
-      239.2899932861328,
-      251.0500030517578,
-      253.5,
-      252.0800018310547,
-      257.2200012207031,
-      247.13999938964844,
-      254.5,
-      252.5399932861328,
-      256.6099853515625,
       261.44000244140625,
       253.17999267578125,
       248.47999572753906,
@@ -1091,20 +1081,21 @@
       454.5299987792969,
       455.0,
       439.5799865722656,
-      445.1700134277344
+      445.1700134277344,
+      451.45001220703125,
+      446.8900146484375,
+      458.9599914550781,
+      475.30999755859375,
+      489.8800048828125,
+      467.260009765625,
+      483.3699951171875,
+      481.20001220703125,
+      488.7300109863281,
+      485.55999755859375,
+      485.3999938964844,
+      475.19000244140625
     ],
     "volume": [
-      97913900,
-      95328300,
-      146286300,
-      160829200,
-      135932800,
-      116416500,
-      106737400,
-      125097000,
-      109594200,
-      93370100,
-      86892400,
       106494400,
       113619900,
       100891600,
@@ -1594,20 +1585,21 @@
       71906500,
       56427500,
       69165800,
-      60868108
+      62367400,
+      63257500,
+      55979500,
+      95656700,
+      114542200,
+      107608100,
+      106490400,
+      95168400,
+      103305400,
+      86916100,
+      58223600,
+      41285400,
+      58521400
     ],
     "high": [
-      243.44000244140625,
-      238.99000549316406,
-      240.3000030517578,
-      253.8800048828125,
-      254.1300048828125,
-      258.739990234375,
-      258.3399963378906,
-      259.8399963378906,
-      254.8000030517578,
-      258.2200012207031,
-      257.9700012207031,
       263.3399963378906,
       265.1300048828125,
       255.19000244140625,
@@ -2097,20 +2089,21 @@
       454.6300048828125,
       458.8699951171875,
       449.75,
-      452.3900146484375
+      452.3900146484375,
+      456.8800048828125,
+      449.2699890136719,
+      463.010009765625,
+      481.7699890136719,
+      491.5,
+      495.2799987792969,
+      490.8599853515625,
+      490.489990234375,
+      498.8299865722656,
+      491.9700012207031,
+      490.8999938964844,
+      489.0899963378906
     ],
     "low": [
-      237.4499969482422,
-      233.8699951171875,
-      228.1999969482422,
-      240.7899932861328,
-      248.3000030517578,
-      251.36000061035156,
-      253.00999450683594,
-      247.0,
-      248.5500030517578,
-      251.3699951171875,
-      252.91000366210938,
       257.5199890136719,
       252.7100067138672,
       247.42999267578125,
@@ -2600,17 +2593,30 @@
       445.3900146484375,
       451.6600036621094,
       435.25,
-      435.70001220703125
+      435.70001220703125,
+      443.6099853515625,
+      440.3299865722656,
+      441.6700134277344,
+      467.6600036621094,
+      465.8299865722656,
+      466.20001220703125,
+      473.1199951171875,
+      474.7200012207031,
+      485.3299865722656,
+      482.8399963378906,
+      476.79998779296875,
+      473.82000732421875
     ]
   },
   "analyst_ratings": {
-    "buy": 0,
-    "hold": 0,
-    "sell": 0,
-    "target_mean": 393.29367,
+    "buy": 8,
+    "hold": 24,
+    "sell": 8,
+    "total": 40,
+    "target_mean": 399.151,
     "target_high": 600.0,
     "target_low": 120.0,
-    "recommendation": "hold"
+    "recommendation": "HOLD"
   },
   "institutional_holders": [
     {
@@ -2618,83 +2624,137 @@
       "Holder": "Vanguard Group Inc",
       "pctHeld": 0.0759,
       "Shares": 252386304,
-      "Value": 112354814340,
-      "pctChange": 0.004
+      "Value": 119931448413,
+      "pctChange": 0.004,
+      "pct_held": 7.588695937057242
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "Blackrock Inc.",
       "pctHeld": 0.0622,
       "Shares": 206739699,
-      "Value": 92034314579,
-      "pctChange": 0.0038
+      "Value": 98240638072,
+      "pctChange": 0.0038,
+      "pct_held": 6.216203846900255
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "State Street Corporation",
       "pctHeld": 0.0342,
       "Shares": 113762849,
-      "Value": 50643809016,
-      "pctChange": 0.003
+      "Value": 54058968494,
+      "pctChange": 0.003,
+      "pct_held": 3.4205963489776234
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "JPMORGAN CHASE & CO",
       "pctHeld": 0.026800001,
       "Shares": 89279010,
-      "Value": 39744338080,
-      "pctChange": 0.9402
+      "Value": 42424492979,
+      "pctChange": 0.9402,
+      "pct_held": 2.684421657252419
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "Geode Capital Management, LLC",
       "pctHeld": 0.0196,
       "Shares": 65325029,
-      "Value": 29080744037,
-      "pctChange": 0.0086
+      "Value": 31041800689,
+      "pctChange": 0.0086,
+      "pct_held": 1.9641786194564919
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "Capital World Investors",
       "pctHeld": 0.013200001,
       "Shares": 44035949,
-      "Value": 19603484007,
-      "pctChange": 0.0577
+      "Value": 20925442712,
+      "pctChange": 0.0577,
+      "pct_held": 1.3240632394250675
     },
     {
       "Date Reported": "2025-06-30T00:00:00",
       "Holder": "NORGES BANK",
       "pctHeld": 0.0112,
       "Shares": 37272002,
-      "Value": 16592377630,
-      "pctChange": 0.0438
+      "Value": 17711282721,
+      "pctChange": 0.0438,
+      "pct_held": 1.1206863671310365
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "FMR, LLC",
       "pctHeld": 0.0109,
       "Shares": 36091120,
-      "Value": 16066684375,
-      "pctChange": 0.20719999
+      "Value": 17150139400,
+      "pctChange": 0.20719999,
+      "pct_held": 1.0851798666057781
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "Morgan Stanley",
       "pctHeld": 0.0109,
       "Shares": 36146709,
-      "Value": 16091430930,
-      "pctChange": -0.16399999
+      "Value": 17176554737,
+      "pctChange": -0.16399999,
+      "pct_held": 1.0868513044443586
     },
     {
       "Date Reported": "2025-09-30T00:00:00",
       "Holder": "Goldman Sachs Group Inc",
       "pctHeld": 0.009,
       "Shares": 29884403,
-      "Value": 13303640084,
-      "pctChange": -0.0217
+      "Value": 14200769534,
+      "pctChange": -0.0217,
+      "pct_held": 0.8985576635231413
     }
   ],
   "insider_transactions": [
+    {
+      "Shares": 15242,
+      "Value": 0.0,
+      "URL": "",
+      "Text": "Stock Gift at price 0.00 per share.",
+      "Insider": "MUSK KIMBAL J",
+      "Position": "Director",
+      "Transaction": "",
+      "Start Date": "2025-12-09T00:00:00",
+      "Ownership": "D"
+    },
+    {
+      "Shares": 56820,
+      "Value": 25606501.0,
+      "URL": "",
+      "Text": "Sale at price 450.66 per share.",
+      "Insider": "MUSK KIMBAL J",
+      "Position": "Director",
+      "Transaction": "",
+      "Start Date": "2025-12-09T00:00:00",
+      "Ownership": "D"
+    },
+    {
+      "Shares": 2637,
+      "Value": 1170635.0,
+      "URL": "",
+      "Text": "Sale at price 443.93 per share.",
+      "Insider": "TANEJA VAIBHAV",
+      "Position": "Chief Financial Officer",
+      "Transaction": "",
+      "Start Date": "2025-12-08T00:00:00",
+      "Ownership": "D"
+    },
+    {
+      "Shares": 6538,
+      "Value": NaN,
+      "URL": "",
+      "Text": "",
+      "Insider": "TANEJA VAIBHAV",
+      "Position": "Chief Financial Officer",
+      "Transaction": "",
+      "Start Date": "2025-12-05T00:00:00",
+      "Ownership": "D"
+    },
     {
       "Shares": 14785,
       "Value": 0.0,
@@ -2760,81 +2820,37 @@
       "Transaction": "",
       "Start Date": "2025-09-05T00:00:00",
       "Ownership": "D"
-    },
-    {
-      "Shares": 120000,
-      "Value": 42034320.0,
-      "URL": "",
-      "Text": "Sale at price 350.29 per share.",
-      "Insider": "MURDOCH JAMES RUPERT",
-      "Position": "Director",
-      "Transaction": "",
-      "Start Date": "2025-08-26T00:00:00",
-      "Ownership": "I"
-    },
-    {
-      "Shares": 90000,
-      "Value": 1572300.0,
-      "URL": "",
-      "Text": "Conversion of Exercise of derivative security at price 17.47 per share.",
-      "Insider": "MURDOCH JAMES RUPERT",
-      "Position": "Director",
-      "Transaction": "",
-      "Start Date": "2025-07-11T00:00:00",
-      "Ownership": "D"
-    },
-    {
-      "Shares": 6000,
-      "Value": 109320.0,
-      "URL": "",
-      "Text": "Conversion of Exercise of derivative security at price 18.22 per share.",
-      "Insider": "TANEJA VAIBHAV",
-      "Position": "Chief Financial Officer",
-      "Transaction": "",
-      "Start Date": "2025-07-08T00:00:00",
-      "Ownership": "D"
-    },
-    {
-      "Shares": 6000,
-      "Value": 1771545.0,
-      "URL": "",
-      "Text": "Sale at price 289.95 - 300.00 per share.",
-      "Insider": "TANEJA VAIBHAV",
-      "Position": "Chief Financial Officer",
-      "Transaction": "",
-      "Start Date": "2025-07-08T00:00:00",
-      "Ownership": "D"
     }
   ],
   "competitors": {
     "RIVN": {
       "name": "Rivian Automotive, Inc.",
-      "price": 17.71,
-      "market_cap": 21710919680,
+      "price": 20.9,
+      "market_cap": 25621583872,
       "pe_ratio": 0,
       "revenue": 5.834999808,
       "gross_margin": 3.325
     },
     "F": {
       "name": "Ford Motor Company",
-      "price": 13.08,
-      "market_cap": 52117241856,
-      "pe_ratio": 11.179487,
+      "price": 13.31,
+      "market_cap": 53033680896,
+      "pe_ratio": 11.376069,
       "revenue": 189.587996672,
       "gross_margin": 7.555000000000001
     },
     "GM": {
       "name": "General Motors Company",
-      "price": 77.16,
-      "market_cap": 73462325248,
-      "pe_ratio": 14.725192,
+      "price": 83.06,
+      "market_cap": 79079579648,
+      "pe_ratio": 15.851145,
       "revenue": 187.435008,
       "gross_margin": 10.0760005
     },
     "NIO": {
       "name": "NIO Inc.",
-      "price": 5.03,
-      "market_cap": 12719156224,
+      "price": 5.1,
+      "market_cap": 12896161792,
       "pe_ratio": 0,
       "revenue": 72.54069248,
       "gross_margin": 11.272000499999999
@@ -2850,16 +2866,16 @@
     "current_ratio": 0
   },
   "technical_indicators": {
-    "current_price": 445.1700134277344,
-    "ma_20": 423.5684997558594,
-    "ma_50": 435.2397998046875,
-    "ma_200": 343.6720000457764,
-    "rsi": 71.44111574613595,
-    "macd": 4.493672777308518,
-    "macd_signal": 0.6739039320023834,
-    "macd_histogram": 3.8197688453061347,
+    "current_price": 475.19000244140625,
+    "ma_20": 460.9885025024414,
+    "ma_50": 444.1366015625,
+    "ma_200": 355.96170013427735,
+    "rsi": 57.37884759889443,
+    "macd": 14.189503229284242,
+    "macd_signal": 12.477991248912383,
+    "macd_histogram": 1.7115119803718581,
     "trend": "Bullish",
-    "rsi_signal": "Overbought"
+    "rsi_signal": "Neutral"
   },
   "dcf_valuation": {
     "free_cash_flow": 3.581,
@@ -2867,9 +2883,9 @@
     "terminal_growth": 3.0,
     "discount_rate": 10.0,
     "enterprise_value": 86.30627719857145,
-    "intrinsic_value": 26.706886209128072,
-    "current_price": 445.17,
-    "upside": -94.0007443877332,
-    "margin_of_safety": -1566.8734666935698
+    "intrinsic_value": 26.706886438849356,
+    "current_price": 475.19,
+    "upside": -94.37974569354377,
+    "margin_of_safety": -1679.2789177729142
   }
 }
