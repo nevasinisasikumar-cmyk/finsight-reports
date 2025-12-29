@@ -1,0 +1,38 @@
+{
+  "tool": "generate_line_chart",
+  "params": {
+    "data": [
+      {
+        "time": "2025",
+        "value": 416.161
+      },
+      {
+        "time": "2024",
+        "value": 391.035
+      },
+      {
+        "time": "2023",
+        "value": 383.285
+      },
+      {
+        "time": "2022",
+        "value": 394.328
+      },
+      {
+        "time": "2021",
+        "value": 0.0
+      }
+    ],
+    "title": "Tesla Revenue Growth (2019-2024)",
+    "xField": "time",
+    "yField": "value",
+    "color": [
+      "#2E86AB",
+      "#A23B72",
+      "#F18F01",
+      "#C73E1D",
+      "#3B1F2B",
+      "#95A3A6"
+    ]
+  }
+}

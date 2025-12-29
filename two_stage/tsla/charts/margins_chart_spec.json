@@ -1,0 +1,69 @@
+{
+  "tool": "generate_line_chart",
+  "params": {
+    "data": [
+      {
+        "time": "2024",
+        "value": 17.862626676220696,
+        "type": "Gross Margin"
+      },
+      {
+        "time": "2023",
+        "value": 18.248891736331416,
+        "type": "Gross Margin"
+      },
+      {
+        "time": "2022",
+        "value": 25.598438535759005,
+        "type": "Gross Margin"
+      },
+      {
+        "time": "2021",
+        "value": 25.279155751258752,
+        "type": "Gross Margin"
+      },
+      {
+        "time": "2020",
+        "value": 0.0,
+        "type": "Gross Margin"
+      },
+      {
+        "time": "2024",
+        "value": 7.943494728221927,
+        "type": "Operating Margin"
+      },
+      {
+        "time": "2023",
+        "value": 9.187479978919741,
+        "type": "Operating Margin"
+      },
+      {
+        "time": "2022",
+        "value": 16.979696054602144,
+        "type": "Operating Margin"
+      },
+      {
+        "time": "2021",
+        "value": 12.069189751593186,
+        "type": "Operating Margin"
+      },
+      {
+        "time": "2020",
+        "value": 0.0,
+        "type": "Operating Margin"
+      }
+    ],
+    "title": "Tesla Profitability Margins",
+    "xField": "time",
+    "yField": "value",
+    "seriesField": "type",
+    "color": [
+      "#2E86AB",
+      "#A23B72",
+      "#F18F01",
+      "#C73E1D",
+      "#3B1F2B",
+      "#95A3A6"
+    ]
+  }
+}

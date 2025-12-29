@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Company Overview and Business Model",
+    "content": "## Apple Inc. (AAPL): Business Overview\n\n### Executive Summary\nApple Inc. is a leading Consumer Electronics company headquartered in Cupertino, CA.\nThe company operates in the Technology sector and employs approximately 166,000 people globally\n[Source: company_profile].\n\n### Business Segments\nThe company operates through the following segments:\n- **Consumer Electronics - Core** (75% of revenue)\n- **Services** (12% of revenue)\n- **Accessories** (8% of revenue)\n- **Other** (5% of revenue)\n\n@import...",
+    "data_used": [
+      "company_profile",
+      "segment_data"
+    ]
+  },
+  {
+    "title": "Financial Performance Analysis",
+    "content": "## Financial Performance Deep Dive\n\n### Revenue Growth\nRevenue has shown a 0.0% CAGR over the analyzed period, reaching $0.0B in 2021\n[Source: income_statement].\n\n@import \"Revenue Growth Trend, bar chart with YoY growth annotations (income_statement)\"\n\n### Year-over-Year Performance\n\n| Year | Revenue ($B) | Yoy Growth (%) |\n|---|---|---|\n| 2024 | 391.0 | <span class='trend-negative'>-6.0%</span> |\n| 2023 | 383.3 | <span class='trend-negative'>-2.0%</span> |\n| 2022 | 394.3 | <span class='trend-po...",
+    "data_used": [
+      "income_statement"
+    ]
+  },
+  {
+    "title": "Profitability Metrics Analysis",
+    "content": "## Profitability Analysis\n\n### Margin Compression\nProfitability has deteriorated significantly in 2023-2024:\n- Gross Margin: 43.3% (2022) \u2192 0.0% (2024)\n- Operating Margin: 30.3% (2022) \u2192 0.0% (2024)\n- Net Margin: 25.3% (2022) \u2192 0.0% (2024)\n\n[Source: profitability_metrics]\n\n@import \"Profitability Margins Comparison (2019-2024), grouped bar chart showing gross and operating margins (profitability_metrics)\"\n\n### Margin Compression Drivers:\n1. **Price Cuts**: Multiple price reductions averaging -15%...",
+    "data_used": [
+      "profitability_metrics"
+    ]
+  },
+  {
+    "title": "Vehicle Delivery Analysis",
+    "content": "## Vehicle Delivery Performance\n\n### Annual Deliveries\nTesla delivered approximately 0K vehicles in 2024,\nrepresenting a -100.0% change YoY [Source: delivery_data].\n\n@import \"Annual Vehicle Deliveries (2019-2024), bar chart with trend line (delivery_data)\"\n\n### Delivery Trajectory\n\n| Year | Deliveries (K) | Yoy Growth |\n|---|---|---|\n| 2024 | $391.0K | <span class='trend-negative'>-6.0%</span> |\n| 2023 | $383.3K | <span class='trend-negative'>-2.0%</span> |\n| 2022 | $394.3K | <span class='trend-...",
+    "data_used": [
+      "delivery_data"
+    ]
+  },
+  {
+    "title": "Competitive Landscape",
+    "content": "## Competitive Landscape Analysis\n\n### Global EV Market Share\nTesla holds approximately 26% of the global EV market (among major players),\nsecond to BYD at 23% [Source: competitor_data].\n\n@import \"Global EV Sales by Manufacturer (2024), bar chart comparing companies (competitor_data)\"\n\n### Market Position\n\n| Company | Ev Sales 2024 (K) | Market Cap ($B) | P/E Ratio |\n|---|---|---|---|\n| Apple Inc. | $4.1M | $4.1K | 36.65x |\n| MSFT | $3.6M | $3.6K | 34.71x |\n| GOOG | $3.8M | $3.8K | 31.06x |\n\n###...",
+    "data_used": [
+      "competitor_data"
+    ]
+  },
+  {
+    "title": "Balance Sheet Analysis",
+    "content": "## Balance Sheet Strength\n\n### Financial Position\nTesla maintains a strong balance sheet with minimal leverage [Source: balance_sheet]:\n\n### Financial Position\n\n| Metric | Value |\n|---|---|\n| Total Assets | $359.2 |\n| Cash & Equivalents | $35.9 |\n| Total Debt | $98.7 |\n| Shareholders' Equity | $73.7 |\n| Current Ratio | 0.89x |\n| Debt/Equity | 1.34x |\n\n### Key Strengths:\n1. **Net Cash Position**: $-62.7B net cash\n2. **Low Leverage**: D/E of 1.34x (minimal debt)\n3. **Strong Liquidity**: Current ra...",
+    "data_used": [
+      "balance_sheet"
+    ]
+  },
+  {
+    "title": "Valuation Analysis",
+    "content": "## Valuation Analysis\n\n### Current Valuation Metrics\n[Source: stock_data]\n\n### Current Valuation Metrics\n\n| Metric | Tesla | Industry Avg |\n|---|---|---|\n| Stock Price | $273.4 | - |\n| Market Cap | $4.1K | - |\n| P/E Ratio | $36.6 | 10 |\n| P/S Ratio | $9.7 | 1.5 |\n| P/B Ratio | $54.8 | 2 |\n\n### Premium Analysis\nTesla trades at a significant premium to peers:\n- **3.7x** the industry average P/E\n- **6.5x** the industry average P/S\n\n### 52-Week Range\n- High: $288.62\n- Low: $169.21\n- Current: $273.4 ...",
+    "data_used": [
+      "stock_data"
+    ]
+  }
+]
