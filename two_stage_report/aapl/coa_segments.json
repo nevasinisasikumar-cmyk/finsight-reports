@@ -44,7 +44,7 @@
   },
   {
     "title": "Valuation Analysis",
-    "content": "## Valuation Analysis\n\n### Current Valuation Metrics\n[Source: stock_data]\n\n### Current Valuation Metrics\n\n| Metric | Tesla | Industry Avg |\n|---|---|---|\n| Stock Price | $273.4 | - |\n| Market Cap | $4.1K | - |\n| P/E Ratio | $36.6 | 10 |\n| P/S Ratio | $9.7 | 1.5 |\n| P/B Ratio | $54.8 | 2 |\n\n### Premium Analysis\nTesla trades at a significant premium to peers:\n- **3.7x** the industry average P/E\n- **6.5x** the industry average P/S\n\n### 52-Week Range\n- High: $288.62\n- Low: $169.21\n- Current: $273.4 ...",
+    "content": "## Valuation Analysis\n\n### Current Stock Metrics [Source: stock_data]\n\n| Metric | Value |\n|--------|-------|\n| Stock Price | $273.40 |\n| Market Cap | $4057.4B |\n| P/E Ratio | 36.6x |\n| P/S Ratio | 9.7x |\n| P/B Ratio | 54.8x |\n\n### Valuation vs Industry Average\n\nThe stock trades at a premium to industry peers:\n- **3.7x** the industry average P/E (industry avg: 10x)\n- **6.5x** the industry average P/S (industry avg: 1.5x)\n\n### 52-Week Trading Range\n\n- **52-Week High**: $288.62\n- **52-Week Low**: $...",
     "data_used": [
       "stock_data"
     ]

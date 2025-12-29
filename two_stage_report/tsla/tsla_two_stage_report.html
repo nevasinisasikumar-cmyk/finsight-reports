@@ -173,11 +173,53 @@
             vertical-align: super;
         }
         
-        /* Source References */
+        /* Source References - Tooltip Style */
         .source {
-            color: #059669;
-            font-size: 0.9em;
-            font-style: italic;
+            position: relative;
+            display: inline-block;
+            cursor: help;
+        }
+
+        .source::before {
+            content: "ⁱ";
+            font-size: 0.7em;
+            color: #6b7280;
+            vertical-align: super;
+            font-weight: 600;
+        }
+
+        .source .source-text {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.75em;
+            white-space: nowrap;
+            z-index: 100;
+            transition: opacity 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .source .source-text::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 5px;
+            border-style: solid;
+            border-color: #1f2937 transparent transparent transparent;
+        }
+
+        .source:hover .source-text {
+            visibility: visible;
+            opacity: 1;
         }
         
         /* Key Metrics Box */
@@ -624,7 +666,7 @@ price of <strong>$275</strong>, representing 11% upside from current levels.
 <h3>Executive Summary</h3>
 Tesla, Inc. is a leading Auto Manufacturers company headquartered in Austin, TX.
 The company operates in the Consumer Cyclical sector and employs approximately 125,665 people globally
-<span class="source">[Source: company_profile]</span>.
+<span class="source"><span class="source-text">Data: company_profile</span></span>.
 
 <h3>Business Segments</h3>
 The company operates through the following segments:
@@ -635,7 +677,7 @@ The company operates through the following segments:
 </ul>
 <div class="chart-container"><img src="charts/segment_chart.png" alt="Business Segment Revenue Distribution, pie chart showing segment breakdown"><div class="chart-caption">Business Segment Revenue Distribution, pie chart showing segment breakdown</div></div>
 
-<span class="source">[Source: segment_data]</span>
+<span class="source"><span class="source-text">Data: segment_data</span></span>
 
 <p>---</p>
 
@@ -645,7 +687,7 @@ The company operates through the following segments:
 
 <h3>Revenue Growth</h3>
 Revenue has shown a 0.0% CAGR over the analyzed period, reaching $0.0B in 2020
-<span class="source">[Source: income_statement]</span>.
+<span class="source"><span class="source-text">Data: income_statement</span></span>.
 
 <div class="chart-container"><img src="charts/revenue_chart.png" alt="Revenue Growth Trend, bar chart with YoY growth annotations"><div class="chart-caption">Revenue Growth Trend, bar chart with YoY growth annotations</div></div>
 
@@ -685,11 +727,11 @@ Revenue has shown a 0.0% CAGR over the analyzed period, reaching $0.0B in 2020
 
 <h3>Net Income Trend</h3>
 Net income reached $0.0B in 2020 (down from $5.5B in the prior year)
-<span class="source">[Source: income_statement]</span>.
+<span class="source"><span class="source-text">Data: income_statement</span></span>.
 
 <div class="chart-container"><img src="charts/revenue_chart.png" alt="Net Income Trend, bar chart showing profitability"><div class="chart-caption">Net Income Trend, bar chart showing profitability</div></div>
 
-<span class="source">[Source: income_statement]</span>
+<span class="source"><span class="source-text">Data: income_statement</span></span>
 
 <h2>Profitability Analysis</h2>
 
@@ -699,7 +741,7 @@ Profitability has deteriorated significantly in 2023-2024:
 <li>Operating Margin: 12.1% (2022) → 0.0% (2024)</li>
 <li>Net Margin: 10.3% (2022) → 0.0% (2024)</li>
 </ul>
-<span class="source">[Source: profitability_metrics]</span>
+<span class="source"><span class="source-text">Data: profitability_metrics</span></span>
 
 <div class="chart-container"><img src="charts/margins_chart.png" alt="Profitability Margins Comparison (2019-2024), grouped bar chart showing gross and operating margins"><div class="chart-caption">Profitability Margins Comparison (2019-2024), grouped bar chart showing gross and operating margins</div></div>
 
@@ -711,14 +753,14 @@ Profitability has deteriorated significantly in 2023-2024:
 
 <h3>Return on Equity</h3>
 ROE has declined from a peak of 7.5% in 2022 to 0.0% in 2024, 
-still above industry average of 12% <span class="source">[Source: profitability_metrics]</span>.
+still above industry average of 12% <span class="source"><span class="source-text">Data: profitability_metrics</span></span>.
 
-<span class="source">[Source: profitability_metrics]</span>
+<span class="source"><span class="source-text">Data: profitability_metrics</span></span>
 
 <h2>Balance Sheet Strength</h2>
 
 <h3>Financial Position</h3>
-Tesla maintains a strong balance sheet with minimal leverage <span class="source">[Source: balance_sheet]</span>:
+Tesla maintains a strong balance sheet with minimal leverage <span class="source"><span class="source-text">Data: balance_sheet</span></span>:
 
 <h3>Financial Position</h3>
 
@@ -763,7 +805,7 @@ Tesla maintains a strong balance sheet with minimal leverage <span class="source
 <li><strong>Strong Liquidity</strong>: Current ratio of 2.02x</li>
 <li><strong>Investment Capacity</strong>: Ample cash for R&D and capex</li>
 
-<span class="source">[Source: balance_sheet]</span>
+<span class="source"><span class="source-text">Data: balance_sheet</span></span>
 
 <p>---</p>
 
@@ -773,7 +815,7 @@ Tesla maintains a strong balance sheet with minimal leverage <span class="source
 
 <h3>Annual Deliveries</h3>
 Tesla delivered approximately 0K vehicles in 2024,
-representing a -100.0% change YoY <span class="source">[Source: delivery_data]</span>.
+representing a -100.0% change YoY <span class="source"><span class="source-text">Data: delivery_data</span></span>.
 
 <div class="chart-container"><img src="charts/deliveries_chart.png" alt="Annual Vehicle Deliveries (2019-2024), bar chart with trend line"><div class="chart-caption">Annual Vehicle Deliveries (2019-2024), bar chart with trend line</div></div>
 
@@ -817,7 +859,7 @@ representing a -100.0% change YoY <span class="source">[Source: delivery_data]</
 <li>Production challenges with Cybertruck impacted volumes</li>
 <li>Demand softness in key markets (China, Europe)</li>
 </ul>
-<span class="source">[Source: delivery_data]</span>
+<span class="source"><span class="source-text">Data: delivery_data</span></span>
 
 <p>---</p>
 
@@ -827,7 +869,7 @@ representing a -100.0% change YoY <span class="source">[Source: delivery_data]</
 
 <h3>Global EV Market Share</h3>
 Tesla holds approximately 90% of the global EV market (among major players),
-second to BYD at 1% <span class="source">[Source: competitor_data]</span>.
+second to BYD at 1% <span class="source"><span class="source-text">Data: competitor_data</span></span>.
 
 <div class="chart-container"><img src="charts/competitor_chart.png" alt="Global EV Sales by Manufacturer (2024), bar chart comparing companies"><div class="chart-caption">Global EV Sales by Manufacturer (2024), bar chart comparing companies</div></div>
 
@@ -866,11 +908,11 @@ second to BYD at 1% <span class="source">[Source: competitor_data]</span>.
 
 <h3>Valuation Premium</h3>
 Tesla trades at 323.25848x P/E vs. peer average of 7x,
-reflecting growth expectations and technology leadership <span class="source">[Source: competitor_data]</span>.
+reflecting growth expectations and technology leadership <span class="source"><span class="source-text">Data: competitor_data</span></span>.
 
 <div class="chart-container"><img src="charts/competitor_chart.png" alt="P/E Ratio Comparison, bar chart showing valuation premium"><div class="chart-caption">P/E Ratio Comparison, bar chart showing valuation premium</div></div>
 
-<span class="source">[Source: competitor_data]</span>
+<span class="source"><span class="source-text">Data: competitor_data</span></span>
 
 <p>---</p>
 
@@ -878,7 +920,7 @@ reflecting growth expectations and technology leadership <span class="source">[S
 
 <h2>Valuation Analysis</h2>
 
-<h3>Current Stock Metrics <span class="source">[Source: stock_data]</span></h3>
+<h3>Current Stock Metrics <span class="source"><span class="source-text">Data: stock_data</span></span></h3>
 
 <table class="smart-table">
   <thead>
@@ -925,7 +967,7 @@ reflecting growth expectations and technology leadership <span class="source">[S
 </ul>
 The stock is trading near its 52-week high.
 
-<span class="source">[Source: stock_data]</span>
+<span class="source"><span class="source-text">Data: stock_data</span></span>
 
 <p>---</p>
 
